@@ -5,6 +5,10 @@ It's still cool to be competent, even in the age of AI, so here I'm trying very 
 
 I took this challenge following Coding Challenges (awesome) website: https://codingchallenges.fyi/challenges/challenge-wc
 
+Python because I hate my life...
+Just kidding, python because I want to learn more (maybe I didn't even had to say this, anyone doing this kinda of stuff wants to learn something more).
+Anyways...
+
 # About wc
 
 ## How it works
