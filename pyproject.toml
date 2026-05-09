@@ -1,0 +1,17 @@
+[project]
+name = "wc"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Gabriel Gouvêa", email = "gouswat@gmail.com" }
+]
+requires-python = ">=3.11"
+dependencies = []
+
+[project.scripts]
+mwc = "wc:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
