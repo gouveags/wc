@@ -1,16 +1,19 @@
 [project]
-name = "wc"
+name = "mwc"
 version = "0.1.0"
-description = "Add your description here"
+description = "mwc for 'My wc' - my version of unix wc tool"
 readme = "README.md"
 authors = [
     { name = "Gabriel Gouvêa", email = "gouswat@gmail.com" }
 ]
 requires-python = ">=3.11"
-dependencies = []
+dependencies = [
+    "typer>=0.25.1",
+    "typing-extensions>=4.15.0",
+]
 
 [project.scripts]
-mwc = "wc:main"
+mwc = "mwc.cli:app"
 
 [build-system]
 requires = ["hatchling"]
